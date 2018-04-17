@@ -16,6 +16,7 @@
 		D7FD18172085923700C45022 /* Aldo PC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FD18162085923600C45022 /* Aldo PC.ttf */; };
 		D7FD181920866D9800C45022 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FD181820866D9800C45022 /* RoundedCorner.swift */; };
 		D7FD181C20866FD900C45022 /* ResetArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FD181B20866FD900C45022 /* ResetArrow.png */; };
+		D7FD181E2086878700C45022 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FD181D2086878700C45022 /* Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D7FD18162085923600C45022 /* Aldo PC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aldo PC.ttf"; sourceTree = "<group>"; };
 		D7FD181820866D9800C45022 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		D7FD181B20866FD900C45022 /* ResetArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ResetArrow.png; path = Images/ResetArrow.png; sourceTree = SOURCE_ROOT; };
+		D7FD181D2086878700C45022 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = "../../../Documents/AAU/2018_Spring/WNM 300 [Interactive Application]/Tip Tap/TipTap/Images/Logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		D7FD181A20866FB900C45022 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D7FD181D2086878700C45022 /* Logo.png */,
 				D7FD181B20866FD900C45022 /* ResetArrow.png */,
 			);
 			path = Images;
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7FD18092080970E00C45022 /* LaunchScreen.storyboard in Resources */,
+				D7FD181E2086878700C45022 /* Logo.png in Resources */,
 				D7FD18172085923700C45022 /* Aldo PC.ttf in Resources */,
 				D7FD18062080970E00C45022 /* Assets.xcassets in Resources */,
 				D7FD18042080970E00C45022 /* Main.storyboard in Resources */,
