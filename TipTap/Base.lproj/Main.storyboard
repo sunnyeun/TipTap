@@ -39,7 +39,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQa-3b-2VC">
-                                                        <rect key="frame" x="272" y="47" width="66" height="32.666666666666657"/>
+                                                        <rect key="frame" x="272" y="47" width="66" height="33"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="30"/>
                                                         <color key="textColor" red="0.10980392156862745" green="0.67450980392156867" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -58,7 +58,6 @@
                                                     <constraint firstAttribute="bottom" secondItem="WQa-3b-2VC" secondAttribute="bottom" constant="20.666666666666657" id="cVN-k2-UtN"/>
                                                     <constraint firstItem="WQa-3b-2VC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VWW-3H-sOS" secondAttribute="leading" id="eoV-Ms-Pv3"/>
                                                     <constraint firstAttribute="trailing" secondItem="WQa-3b-2VC" secondAttribute="trailing" constant="37" id="f2q-gm-jjL"/>
-                                                    <constraint firstAttribute="height" constant="100" id="rHN-YE-jNU"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -68,34 +67,35 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HEn-7z-jHq">
-                                        <rect key="frame" x="0.0" y="100" width="375" height="140"/>
+                                        <rect key="frame" x="0.0" y="100.00000000000001" width="375" height="140.33333333333337"/>
                                         <subviews>
                                             <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGb-VI-iZP">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="140.33333333333334"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 %" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sZ-Hg-Mpi">
-                                                        <rect key="frame" x="296.66666666666669" y="82" width="38.333333333333314" height="32.666666666666657"/>
+                                                        <rect key="frame" x="296.66666666666669" y="82" width="38.333333333333314" height="33.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="30"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECT A TYPE OF SERVICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uz7-gs-wSI">
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECT A TYPE OF SERVICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uz7-gs-wSI">
                                                         <rect key="frame" x="38" y="64" width="183" height="23"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="183" id="Ckk-Zg-Gjf"/>
+                                                            <constraint firstAttribute="height" constant="23" id="SPr-Cb-Ufk"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detailed description about %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqf-mn-e3X">
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Detailed description about %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqf-mn-e3X">
                                                         <rect key="frame" x="38" y="89" width="178" height="19"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="16"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIP SUGGESTIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFj-US-STL">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TIP SUGGESTIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFj-US-STL">
                                                         <rect key="frame" x="38" y="20" width="143" height="27"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="22"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
@@ -104,34 +104,40 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="3sZ-Hg-Mpi" firstAttribute="top" secondItem="MGb-VI-iZP" secondAttribute="top" constant="82" id="2m7-cr-JCF"/>
+                                                    <constraint firstItem="Uz7-gs-wSI" firstAttribute="leading" secondItem="Oqf-mn-e3X" secondAttribute="leading" id="8bj-Ir-Vgn"/>
                                                     <constraint firstAttribute="trailing" secondItem="3sZ-Hg-Mpi" secondAttribute="trailing" constant="40" id="C8a-fb-pKY"/>
+                                                    <constraint firstItem="3sZ-Hg-Mpi" firstAttribute="leading" secondItem="Uz7-gs-wSI" secondAttribute="trailing" constant="76" id="RLY-hT-Zu8"/>
+                                                    <constraint firstItem="Uz7-gs-wSI" firstAttribute="top" secondItem="MGb-VI-iZP" secondAttribute="top" constant="64" id="YFc-oy-fLK"/>
+                                                    <constraint firstItem="Uz7-gs-wSI" firstAttribute="top" secondItem="DFj-US-STL" secondAttribute="bottom" constant="17" id="bhV-Vw-pGP"/>
                                                     <constraint firstItem="3sZ-Hg-Mpi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MGb-VI-iZP" secondAttribute="leading" id="cAG-eb-x3k"/>
                                                     <constraint firstAttribute="bottom" secondItem="3sZ-Hg-Mpi" secondAttribute="bottom" constant="25.666666666666657" id="iBv-c7-WzV"/>
-                                                    <constraint firstAttribute="height" constant="140" id="nie-9u-Ga6"/>
+                                                    <constraint firstItem="Uz7-gs-wSI" firstAttribute="leading" secondItem="DFj-US-STL" secondAttribute="leading" id="ik4-AV-ByL"/>
+                                                    <constraint firstItem="Oqf-mn-e3X" firstAttribute="top" secondItem="Uz7-gs-wSI" secondAttribute="bottom" constant="2" id="vgP-WZ-6sd"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2Bm-qB-X1U">
-                                        <rect key="frame" x="0.0" y="240" width="375" height="110"/>
+                                        <rect key="frame" x="0.0" y="240.33333333333334" width="375" height="109.33333333333334"/>
                                         <subviews>
                                             <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9AK-Dr-CzK">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="109.33333333333333"/>
                                                 <subviews>
-                                                    <slider opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="cq5-LL-t19">
-                                                        <rect key="frame" x="36" y="58" width="204" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <slider opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="cq5-LL-t19">
+                                                        <rect key="frame" x="36" y="57.333333333333371" width="203" height="30"/>
                                                         <color key="tintColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="29" id="4n1-DW-bAA"/>
+                                                        </constraints>
                                                     </slider>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIP PERCENTAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wT4-bh-R6G">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TIP PERCENTAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wT4-bh-R6G">
                                                         <rect key="frame" x="38" y="20" width="136" height="27"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="22"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 %" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P12-4P-qqH">
-                                                        <rect key="frame" x="295" y="60" width="43" height="32.666666666666657"/>
+                                                        <rect key="frame" x="295" y="60" width="43" height="32.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="30"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
@@ -139,9 +145,13 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="110" id="DYD-t1-uKH"/>
                                                     <constraint firstItem="P12-4P-qqH" firstAttribute="leading" secondItem="9AK-Dr-CzK" secondAttribute="leading" constant="295" id="E3L-4M-IbJ"/>
+                                                    <constraint firstItem="cq5-LL-t19" firstAttribute="leading" secondItem="9AK-Dr-CzK" secondAttribute="leading" constant="38" id="Iz0-N3-CWd"/>
                                                     <constraint firstItem="P12-4P-qqH" firstAttribute="top" secondItem="9AK-Dr-CzK" secondAttribute="top" constant="60" id="Jum-Ck-gEL"/>
+                                                    <constraint firstItem="cq5-LL-t19" firstAttribute="top" secondItem="wT4-bh-R6G" secondAttribute="bottom" constant="11" id="RD4-1V-81b"/>
+                                                    <constraint firstItem="P12-4P-qqH" firstAttribute="leading" secondItem="cq5-LL-t19" secondAttribute="trailing" constant="58" id="T7E-kB-BZ3"/>
+                                                    <constraint firstAttribute="bottom" secondItem="cq5-LL-t19" secondAttribute="bottom" constant="23" id="jNH-bh-3RM"/>
+                                                    <constraint firstItem="cq5-LL-t19" firstAttribute="leading" secondItem="wT4-bh-R6G" secondAttribute="leading" id="pMg-Wd-9v7"/>
                                                     <constraint firstAttribute="bottom" secondItem="P12-4P-qqH" secondAttribute="bottom" constant="17.666666666666657" id="wTi-Zy-sWP"/>
                                                     <constraint firstAttribute="trailing" secondItem="P12-4P-qqH" secondAttribute="trailing" constant="37" id="yMt-95-gFN"/>
                                                 </constraints>
@@ -149,13 +159,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JEj-SM-7Wg">
-                                        <rect key="frame" x="0.0" y="350" width="375" height="100"/>
+                                        <rect key="frame" x="0.0" y="349.66666666666669" width="375" height="101.33333333333331"/>
                                         <subviews>
                                             <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l77-LT-Gno">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="101.33333333333333"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$ 0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8j-Eh-vxj">
-                                                        <rect key="frame" x="266" y="50" width="69" height="32.333333333333343"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8j-Eh-vxj">
+                                                        <rect key="frame" x="266" y="51" width="69" height="32.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="30"/>
                                                         <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
@@ -170,23 +180,22 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="I8j-Eh-vxj" secondAttribute="trailing" constant="40" id="P6H-OB-K2L"/>
-                                                    <constraint firstItem="I8j-Eh-vxj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="l77-LT-Gno" secondAttribute="leading" id="PgQ-Am-0Dw"/>
-                                                    <constraint firstItem="I8j-Eh-vxj" firstAttribute="top" secondItem="l77-LT-Gno" secondAttribute="top" constant="50" id="Qwz-Ub-8YC"/>
-                                                    <constraint firstAttribute="height" constant="100" id="ZpS-dC-vDe"/>
-                                                    <constraint firstAttribute="bottom" secondItem="I8j-Eh-vxj" secondAttribute="bottom" constant="17.666666666666657" id="mCl-ws-625"/>
+                                                    <constraint firstItem="I8j-Eh-vxj" firstAttribute="leading" secondItem="l77-LT-Gno" secondAttribute="leading" constant="266" id="92f-J6-wx5"/>
+                                                    <constraint firstAttribute="bottom" secondItem="I8j-Eh-vxj" secondAttribute="bottom" constant="17.666666666666657" id="DAM-r0-UWf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="I8j-Eh-vxj" secondAttribute="trailing" constant="40" id="YxH-cR-7Ro"/>
+                                                    <constraint firstItem="I8j-Eh-vxj" firstAttribute="top" secondItem="l77-LT-Gno" secondAttribute="top" constant="51" id="o8m-Tf-mNc"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wND-1D-BA6">
-                                        <rect key="frame" x="0.0" y="450" width="375" height="140"/>
+                                        <rect key="frame" x="0.0" y="451" width="375" height="139"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHr-he-PY1">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="139"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0s-2T-UdJ">
-                                                        <rect key="frame" x="244" y="77" width="97" height="43.666666666666657"/>
+                                                        <rect key="frame" x="244" y="77" width="97" height="43"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="40"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -204,45 +213,47 @@
                                                     <constraint firstItem="s0s-2T-UdJ" firstAttribute="leading" secondItem="gHr-he-PY1" secondAttribute="leading" constant="244" id="855-XK-4W4"/>
                                                     <constraint firstAttribute="bottom" secondItem="s0s-2T-UdJ" secondAttribute="bottom" constant="19.666666666666657" id="Lta-dO-bHO"/>
                                                     <constraint firstAttribute="trailing" secondItem="s0s-2T-UdJ" secondAttribute="trailing" constant="34" id="QUM-HN-0qe"/>
-                                                    <constraint firstAttribute="height" constant="140" id="bJc-Gu-WXY"/>
                                                     <constraint firstItem="s0s-2T-UdJ" firstAttribute="top" secondItem="gHr-he-PY1" secondAttribute="top" constant="77" id="tb6-uD-PMb"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdJ-T7-Pko" customClass="RoundedCorner" customModule="TipTap" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="590" width="375" height="0.0"/>
+                                        <color key="backgroundColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
+                                        <state key="normal" title="RESET">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4X-o5-bHU">
+                                        <rect key="frame" x="0.0" y="590" width="375" height="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
                                 </subviews>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdJ-T7-Pko" customClass="RoundedCorner" customModule="TipTap" customModuleProvider="target">
-                                <rect key="frame" x="107" y="705" width="160" height="61"/>
-                                <color key="backgroundColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="cZz-rY-Ifg"/>
+                                    <constraint firstItem="2Bm-qB-X1U" firstAttribute="centerY" secondItem="4xd-IT-uXm" secondAttribute="centerY" id="EZy-8c-OII"/>
+                                    <constraint firstItem="wND-1D-BA6" firstAttribute="bottom" secondItem="q4X-o5-bHU" secondAttribute="bottom" id="WWd-AB-mrj"/>
+                                    <constraint firstItem="wND-1D-BA6" firstAttribute="top" secondItem="4xd-IT-uXm" secondAttribute="top" constant="451" id="eHk-Hm-SZ4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
-                                <state key="normal" title="RESET">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
-                                        <real key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lRP-Am-UFG" secondAttribute="trailing" id="5IW-Pq-NsM"/>
                             <constraint firstItem="lRP-Am-UFG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="BGS-VP-EAC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tdJ-T7-Pko" secondAttribute="bottom" constant="12" id="FKw-8p-Gft"/>
-                            <constraint firstItem="tdJ-T7-Pko" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="I6N-oT-d2T"/>
                             <constraint firstItem="4xd-IT-uXm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="Lg6-Dd-OrM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tdJ-T7-Pko" secondAttribute="trailing" constant="108" id="Vve-Df-3Wy"/>
                             <constraint firstItem="4xd-IT-uXm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Zic-FS-2Oz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4xd-IT-uXm" secondAttribute="trailing" id="eHy-CJ-7Sk"/>
                             <constraint firstItem="lRP-Am-UFG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lOP-Kw-3ba"/>
